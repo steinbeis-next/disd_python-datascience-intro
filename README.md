@@ -12,6 +12,6 @@ It is recommended to install python and jupyter locally on your computer and dow
 
 You can use an online coding environment by clicking the "Open in Binder" which is provided in the repository. This may take a couple of minutes to open; please be patient and avoid refreshing your browser window as this will restart the process. 
 
-Run it in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/steinbeis-next/disd_python-datascience-intro/main)
+Run it in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/steinbeis-next/disd_python-datascience-intro/HEAD)
 
 Commercial use is not permitted without the explicit permission of the author.
