@@ -1,0 +1,11 @@
+{
+  "source": "NASA NeoWs feed; actual API response, not synthetic data",
+  "source_url": "https://api.nasa.gov/neo/rest/v1/feed?start_date=2025-10-07&end_date=2025-10-14&api_key=DEMO_KEY",
+  "documentation_url": "https://api.nasa.gov/#asteroids-neows",
+  "retrieved_at_utc": "2026-10-29T08:06:15.975421+00:00",
+  "start_date": "2025-10-07",
+  "end_date": "2025-10-14",
+  "sha256": "a716fda49af1a31b5d649a74d90d3a7d7fab607a7d1a382eabb5d3f9259b3608",
+  "element_count": 26,
+  "note": "Historical query cached for reproducible teaching. Future API responses can change as orbital data are revised. DEMO_KEY is a public example key."
+}

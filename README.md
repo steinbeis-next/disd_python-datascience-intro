@@ -1,17 +1,25 @@
-<img style="float:left;" src="images/snext-logo.png"/> <h1>Introduction to Python for Data Science</h1>
+# Python for Data Science
 
-This repository contains Jupyter notebooks for learning modules of Steinbeis Schools for Next Practices.
-For instructions how to setup your working environment, open the file "SetupEnvironment.ipynb" above.
+## Start
 
-Topics:
-- Introduction to Python
-- Data management (HTTP requests, APIs)
-- Data exploration (Pandas, Matplotlib)
+1. Open `SetupEnvironment.ipynb` and follow the steps.
+2. Open notebooks 1–4 in order.
+3. Keep the `data/` folder beside the notebooks.
 
-It is recommended to install python and jupyter locally on your computer and download the notebooks. Although you can use any online environment to work on the notebooks if you prefer that. You find instructions and options in the Notebook "SetupInstructions.ipynb" above.
+## Notebooks
 
-You can use an online coding environment by clicking the "Open in Binder" which is provided in the repository. This may take a couple of minutes to open; please be patient and avoid refreshing your browser window as this will restart the process. 
+| # | Topic | Data |
+|---|---|---|
+| 1 | Jupyter basics | `data/01_jupyter/snack_votes.txt` |
+| 2 | Python basics | `data/02_python/cafe_orders.csv` |
+| 3 | Pandas | `data/03_pandas/nasa_approaches_flattened.csv` |
+| 4 | Grouping and comparison | `data/04_openaq/air_quality_sample.csv` |
 
-Run it in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/steinbeis-next/disd_python-datascience-intro/HEAD)
+## Data notes
 
-Commercial use is not permitted without the explicit permission of the author.
+- Snack votes and cafe orders are fictional.
+- NASA data is a saved response for 7–14 October 2025. It describes returned close-approach records, not a count of unique asteroids. Source and details are in `data/03_pandas/`.
+- The air-quality sample is invented. Do not present it as real measurements.
+- Notebooks 1–4 work offline. The optional OpenAQ extension needs an API key.
+
+Commercial use of the original course material is not permitted without the author's explicit permission.

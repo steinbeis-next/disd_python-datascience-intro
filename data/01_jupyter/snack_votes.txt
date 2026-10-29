@@ -1,0 +1,4 @@
+SNACK VOTES
+Apples: 8
+Bananas: 5
+Oranges: 3
